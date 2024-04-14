@@ -1,0 +1,137 @@
+.carta {
+    background-image: 
+        url(../img/olasjapo.jpg),
+        url(../img/olasjapo.jpg);
+
+
+    background-size: cover;
+    background-position: center;
+    padding: 2%;
+    width: 100%;
+    height: 100vh;
+}
+
+
+
+
+    .contenedor {
+        background-color: rgba(255, 255, 255, 0.5);
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+    .columna {
+        flex: 1;
+        margin: 10px;
+        padding: 20px;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s;
+    }
+
+    .columna:hover {
+        transform: rotateY(30deg);
+    }
+
+    @media screen and (max-width: 768px) {
+        .contenedor {
+            flex-direction: column;
+            
+        }
+
+        .columna {
+            margin: 10px auto;
+        
+        }
+    }
+
+    .textofinal {
+        font-family: "Permanent Marker", cursive;
+        font-weight: 400;
+        font-style: normal;
+        text-align: center;
+        font-size: 5vw;
+        background-image: url(../img/paisaje.gif);
+        position: relative;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        display: inline-block;
+        padding: 10vw; 
+        text-shadow: 0px 0px 2vw #fff, 
+            0px 0px 3vw rgb(208, 0, 255),
+            0px 0px 4vw rgb(255, 0, 217),
+            0px 0px 5vw rgb(78, 5, 71);
+    }
+    
+    @media (max-width: 768px) {
+        .textofinal {
+            font-size: 8vw; 
+            padding: 15vw;
+            text-shadow: 0px 0px 2vw #fff, /* Reducir el tamaño de la sombra en pantallas pequeñas */
+                0px 0px 3vw rgb(208, 0, 255),
+                0px 0px 4vw rgb(255, 0, 217),
+                0px 0px 5vw rgb(78, 5, 71);
+        }
+    }
+    
+
+
+    .titulo {
+        text-align: center;
+        background-color: rgba(200, 200, 200, 0.7);
+        padding: 10px 0;
+        font-family: "Tac One", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        color: #333;
+        /* Color de texto oscuro */
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+        /* Sombra de texto */
+        letter-spacing: 1px;
+        /* Espaciado entre letras */
+    }
+
+
+
+
+    .name {
+        font-family: "Noto Sans JP", sans-serif;
+        font-style: italic;
+        font-size: 1.5em;
+        color: #333;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+        letter-spacing: 2px;
+        text-align: center;
+    }
+
+    .descrip {
+        font-family: "Times New Roman", Times, serif;
+        font-style: italic;
+        color: black;
+        font-size: 1.1em;
+    }
+
+    .calorias{
+            font-family: "Arial", sans-serif;
+            font-size: 0.8em;
+            font-weight: bold;
+            color:black; /* Color del texto */
+            background-color: #f2f2f2;   
+            padding: 5px 10px; /* Espaciado interno */
+    }
+
+    .price {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 16px;
+        color: #555;
+        font-weight: bold;
+        background-color: rgba(0, 0, 255, 0.3); /* Azul translúcido */
+        padding: 5px 10px; /* Espaciado interno */
+        border-radius: 5px; /* Bordes redondeados */
+    }
+    
+    

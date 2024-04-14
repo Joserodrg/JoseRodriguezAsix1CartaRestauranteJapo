@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<menu>
+     <!-- Entrantes -->
+     <plato tipo="entrante">
+          <nombre>Edamame</nombre>
+          <precio>3.50€</precio>
+          <descripcion>Judías de soja verdes cocidas al vapor y sazonadas con sal.</descripcion>
+          <calorias>122kcal</calorias>
+          <ingrediente>
+               <item>vegetariano</item>
+          </ingrediente>
+     </plato>
+
+     <plato tipo="entrante">
+          <nombre>Gyoza</nombre>
+          <precio>5.50€</precio>
+          <descripcion>Dumplings japoneses rellenos de carne de cerdo, col y especias, luego fritos
+               o cocidos al vapor.</descripcion>
+               <calorias>300kcal</calorias>
+          <ingrediente>
+               <item>carne</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="entrante">
+          <nombre>Sunomono</nombre>
+          <precio>4.75€</precio>
+          <descripcion>Ensalada japonesa a base de pepino en rodajas finas aderezada con vinagre de
+               arroz y alga wakame.</descripcion>
+               <calorias>50kcal</calorias>
+          <ingrediente>
+               <item>vegetariano</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="entrante">
+          <nombre>Agedashi Tofu</nombre>
+          <precio>6.00€</precio>
+          <descripcion>Tofu frito servido con una salsa de dashi dulce y jengibre rallado.</descripcion>
+          <calorias>300kcal</calorias>
+          <ingrediente>
+               <item>carne</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="entrante">
+          <nombre>Takoyaki</nombre>
+          <precio>7.50€</precio>
+          <descripcion>Bolitas de masa de harina de trigo rellenas de pulpo y cubiertas con salsa
+               takoyaki, mayonesa japonesa, aonori y katsuobushi.</descripcion>
+               <calorias>200kcal</calorias>
+          <ingrediente>
+               <item>mariscos</item>
+          </ingrediente>
+     </plato>
+
+     <!-- Sushi -->
+     <plato tipo="sushi">
+          <nombre>Sushi Nigiri</nombre>
+          <precio>2.00€</precio>
+          <descripcion>Pequeñas porciones de arroz cubiertas con rodajas de pescado crudo.</descripcion>
+          <calorias>60kcal</calorias>
+          <ingrediente>
+               <item>pescado</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="sushi">
+          <nombre>Sashimi</nombre>
+          <precio>6.50€</precio>
+          <descripcion>Rodajas finas de pescado crudo con rábano rallado servidas sin arroz.</descripcion>
+          <calorias>200kcal</calorias>
+          <ingrediente>
+               <item>pescado</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="sushi">
+          <nombre>Maki Roll</nombre>
+          <precio>8.50€</precio>
+          <descripcion>Rollos de sushi envueltos en alga nori y rellenos de arroz, pescado crudo,
+               mariscos, verduras y otros ingredientes.</descripcion>
+               <calorias>400kcal</calorias>
+          <ingrediente>
+               <item>pescadoymariscos</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="sushi">
+          <nombre>Uramaki Roll</nombre>
+          <precio>9.50€</precio>
+          <descripcion>Rollos de sushi donde el arroz está en el exterior y el alga nori en el
+               interior, rellenos de ingredientes como aguacate, pepino, pescado, etc.</descripcion>
+               <calorias>500kcal</calorias>
+          <ingrediente>
+               <item>pescado</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="sushi">
+          <nombre>Teriyaki de Pollo</nombre>
+          <precio>8.00€</precio>
+          <descripcion>Pollo a la parrilla marinado en salsa teriyaki con arroz blanco.</descripcion>
+          <calorias>350kcal</calorias>
+          <ingrediente>
+               <item>carne</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="sushi">
+          <nombre>Temaki</nombre>
+          <precio>7.00€</precio>
+          <descripcion>Cono de alga nori relleno de arroz, pescado crudo, mariscos, verduras y otros
+               ingredientes.</descripcion>
+               <calorias>400kcal</calorias>
+          <ingrediente>
+               <item>pescadoymariscos</item>
+          </ingrediente>
+     </plato>
+
+     <!-- Platos -->
+     <plato tipo="plato">
+          <nombre>Ramen</nombre>
+          <precio>9.99€</precio>
+          <descripcion>Fideos en caldo caliente, con carne de cerdo, huevo cocido, cebollín y brotes
+               de bambú.</descripcion>
+               <calorias>700kcal</calorias>
+          <ingrediente>
+               <item>carne</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="plato">
+          <nombre>Tempura</nombre>
+          <precio>8.75€</precio>
+          <descripcion>Vegetales o mariscos empanizados y fritos sobre fideos o arroz.</descripcion>
+          <calorias>300kcal</calorias>
+          <ingrediente>
+               <item>mariscoOvegetal</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="plato">
+          <nombre>Yakitori</nombre>
+          <precio>5.75€</precio>
+          <descripcion>Brochetas de pollo y verduras a la parrilla marinados en salsa tare.</descripcion>
+          <calorias>200kcal</calorias>
+          <ingrediente>
+               <item>carne</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="plato">
+          <nombre>Okonomiyaki</nombre>
+          <precio>10.50€</precio>
+          <descripcion>Tortilla japonesa hecha a base de col rallada, harina y huevo, rellena con
+               diversos ingredientes como cerdo, camarones o calamares.</descripcion>
+               <calorias>500kcal</calorias>
+          <ingrediente>
+               <item>carne</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="plato">
+          <nombre>Katsu Curry</nombre>
+          <precio>12.00€</precio>
+          <descripcion>Filete de cerdo empanizado servido con una salsa japonesa de curry espeso y
+               arroz.</descripcion>
+               <calorias>800kcal</calorias>
+          <ingrediente>
+               <item>carne</item>
+          </ingrediente>
+     </plato>
+
+          <plato tipo="postre">
+               <nombre>Dango</nombre>
+               <precio>3.50€</precio>
+               <descripcion>Dulces bolitas de arroz glutinoso en palitos, servidas con
+                    salsa de soja dulce.</descripcion>
+                    <calorias>150kcal</calorias>
+                    <ingrediente>
+                         <item></item>
+                    </ingrediente>
+          </plato>
+          <plato tipo="postre">
+               <nombre>Mochi</nombre>
+               <precio>4.00€</precio>
+               <descripcion>Pasteles de arroz glutinoso rellenos de diferentes sabores como fresa,
+                    vainilla o té verde.</descripcion>
+                    <calorias>110kcal</calorias>
+                    <ingrediente>
+                         <item>gluten</item>
+                    </ingrediente>
+          </plato>
+          <plato tipo="postre">
+               <nombre>Dorayaki</nombre>
+               <precio>2.50</precio>
+               <descripcion>Pancakes de huevos rellenos de pasta de judía roja dulce (anko).</descripcion>
+               <calorias>300kcal</calorias>
+               <ingrediente>
+                    <item>gluten</item>
+               </ingrediente>
+          </plato>
+          <plato tipo="postre">
+               <nombre>Anmitsu</nombre>
+               <precio>5.00€</precio>
+               <descripcion>Gelatina de agar, azúcar, frutas en almíbar y mochi servidos con sirope
+                    de azúcar moreno.</descripcion>
+                    <calorias>250kcal</calorias>
+                    <ingrediente>
+                         <item></item>
+                    </ingrediente>
+          </plato>
+          <plato tipo="postre">
+               <nombre>Taiyaki</nombre>
+               <precio>3.50€</precio>
+               <descripcion>Pastelitos en forma de pez rellenos de pasta de frijol rojo o crema de
+                    dulce de leche.</descripcion>
+                    <calorias>270kcal</calorias>
+                    <ingrediente>
+                         <item>gluten</item>
+                    </ingrediente>
+          </plato>
+
+
+     <!-- Bebidas -->
+     <plato tipo="bebida-japonesa">
+          <nombre>Sake</nombre>
+          <precio>12.50€</precio>
+          <descripcion>Bebida alcohólica japonesa hecha de arroz fermentado.</descripcion>
+          <ingrediente>
+               <item>+18</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="bebida-japonesa">
+          <nombre>Calpis</nombre>
+          <precio>3€</precio>
+          <descripcion>Bebida alcohólica japonesa hecha de arroz fermentado.</descripcion>
+          <ingrediente>
+               <item>+18</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="bebida-japonesa">
+          <nombre>Yuzu Soda</nombre>
+          <precio>3€</precio>
+          <descripcion>Bebida alcohólica japonesa hecha de arroz fermentado.</descripcion>
+          <ingrediente>
+               <item>+18</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="bebida">
+          <nombre>Agua Mineral</nombre>
+          <precio>1.90€</precio>
+          <descripcion></descripcion>
+          <ingrediente>
+               <item></item>
+          </ingrediente>
+     </plato>
+     <plato tipo="bebida">
+          <nombre>Botella de Coca-Cola</nombre>
+          <precio>1.90€</precio>
+          <descripcion></descripcion>
+          <ingrediente>
+               <item></item>
+          </ingrediente>
+     </plato>
+     <plato tipo="bebida">
+          <nombre>Botella de Fanta</nombre>
+          <precio>1.90€</precio>
+          <descripcion></descripcion>
+          <ingrediente>
+               <item></item>
+          </ingrediente>
+     </plato>
+     <plato tipo="bebida">
+          <nombre>Estrella Galicia</nombre>
+          <precio>2.10€</precio>
+          <descripcion></descripcion>
+          <ingrediente>
+               <item>+18</item>
+          </ingrediente>
+     </plato>
+     <plato tipo="bebida">
+          <nombre>Estrella Galicia(1906)</nombre>
+          <precio>2.90€</precio>
+          <descripcion></descripcion>
+          <ingrediente>
+               <item>+18</item>
+          </ingrediente>
+     </plato>
+
+
+</menu>
